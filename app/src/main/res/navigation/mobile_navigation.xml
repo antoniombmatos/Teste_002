@@ -6,20 +6,20 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="ipt.pt.dam2025.teste_002.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_calculator"
+        android:name="ipt.pt.dam2025.teste_002.ui.CalculatorFragment"
+        android:label="Calculadora"
+        tools:layout="@layout/fragment_calculator" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="ipt.pt.dam2025.teste_002.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_camera"
+        android:name="ipt.pt.dam2025.teste_002.ui.CameraFragment"
+        android:label="Câmara"
+        tools:layout="@layout/fragment_camera" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="ipt.pt.dam2025.teste_002.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_location"
+        android:name="ipt.pt.dam2025.teste_002.ui.LocationFragment"
+        android:label="Localização"
+        tools:layout="@layout/fragment_location" />
 </navigation>
