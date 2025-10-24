@@ -13,7 +13,7 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
-import com.example.funapp.R
+import ipt.pt.dam2025.teste_002.R
 import java.io.File
 
 class CameraFragment : Fragment() {
